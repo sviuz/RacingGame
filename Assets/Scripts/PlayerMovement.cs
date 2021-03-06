@@ -16,5 +16,7 @@ public class PlayerMovement : MonoBehaviour
         var carMove = new Vector2(speed * direction, 0);
         rd.velocity = carMove;
         //rd.AddForce(new Vector2(speed*Input.GetAxis("Horizontal")/5f,0));//use AddFOre for jump movement
+        
+        
     }
 }
