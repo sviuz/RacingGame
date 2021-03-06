@@ -1,21 +1,20 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
+using Vector2 = UnityEngine.Vector2;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public float playerSpeed = 5f;
-
+    public float speed = 5f;
     public Rigidbody2D rd;
-    // Start is called before the first frame update
     void Start()
     {
         rd = GetComponent<Rigidbody2D>();
     }
 
-    // Update is called once per frame
     void Update()
     {
-        
+        float direction = Input.GetAxis("Horizontal");
+        var carMove = new Vector2(speed * direction, 0);
+        rd.velocity = carMove;
+        //rd.AddForce(new Vector2(speed*Input.GetAxis("Horizontal")/5f,0));//use AddFOre for jump movement
     }
 }
