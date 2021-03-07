@@ -11,7 +11,7 @@ public class PlayButton : MonoBehaviour
     {
            Play.onClick.AddListener(() =>
            {
-               SceneManager.LoadScene("TheGame");
+               SceneManager.LoadScene("The  Game");
            });
     }
 }

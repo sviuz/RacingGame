@@ -329,7 +329,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -346,13 +346,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 854630944}
-  m_LocalRotation: {x: 0.26822236, y: 0.007374455, z: -0.25342086, w: 0.9293978}
+  m_LocalRotation: {x: 0.1812878, y: -0.20394824, z: -0.28203118, w: 0.9197816}
   m_LocalPosition: {x: 0.20566693, y: 0.60646564, z: -0.3178733}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 30.153002, y: -8.127001, z: -32.697002}
+  m_LocalEulerAnglesHint: {x: 12.618001, y: -29.291002, z: -37.404003}
 --- !u!1 &916006239
 GameObject:
   m_ObjectHideFlags: 0
@@ -542,7 +542,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1313436753}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: Car Creator
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
